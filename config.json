@@ -1,0 +1,25 @@
+{
+    "logging": {
+        "level": "warn",
+        "filename": "bot.log",
+        "quiet": false,
+        "overwrite": true,
+        "use_color": true,
+        "http": {
+            "enable": true,
+            "filename": "http.log"
+        },
+        "disable_modules": ["USER_AGENT"]
+    },
+    "discord": {
+        "token": "MTI1ODk1NTMwNDY5MTk2MTg4Ng.GmXlJf.I3_-FtIDCVp0hhvIhVbsN5PahtjbaeTif5aAdE",
+        "default_prefix": {
+            "enable": true,
+            "prefix": "r/"
+        }
+    },
+    // OPTIONAL:
+    "telegram": {
+        "token": "YOUR TELEGRAM BOT TOKEN GOES HERE"
+    }
+}
